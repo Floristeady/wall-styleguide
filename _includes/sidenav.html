@@ -11,9 +11,9 @@
  
   {% for post in site.posts | sort:weight %}
   
-      <p style="display: none;">{{location}} - {{post.url | split:'/' }} - {{current}}</p>
+      <p style="display: none;">{{location}} - {{current}}</p>
   
-  	  {% assign current = post.title | handleize | replace:'í','i' | replace:'ó','o' | replace:'é','e' | replace:'á','a' | replace:'ñ','n' | downcase %}
+  	  {% assign current = post.title | slugify | replace:'í','i' | replace:'ó','o' | replace:'é','e' | replace:'á','a' | replace:'ñ','n' | downcase %}
   
 	   {% if post.title %}
 	  <a {% if location == current %} class="menu-item selected" {% else %} class="menu-item" {% endif %} href="{{ post.url | prepend: site.baseurl }}">
