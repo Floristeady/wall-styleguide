@@ -11,4 +11,4 @@ Se debe utilizar la familia tipográfica principal - Museo Sans - para los text
 
 ![Tipografía]({{ site.baseurl }}/assets/tipography.svg)
 
-![Descargar Tipografía](http://www.fontsquirrel.com/fonts/museo-sans)
+<a target="_blank" href="http://www.fontsquirrel.com/fonts/museo-sans">Descargar Museo Sans (500 - 500 italic) </a>

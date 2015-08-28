@@ -13,3 +13,6 @@ Puedes descargar <a href="{{ site.baseurl }}/assets/logotipoazul-560px.jpg" down
 <strong>EN CALIDAD ALTA:</strong><br/>
 Puedes descargar [en PDF (azul)]({{ site.baseurl }}/assets/logotipo_original.pdf) o [en PDF (gris oscuro) ]({{ site.baseurl }}/assets/logotipo_grisoscuro.pdf) o [en PDF (blanco) ]({{ site.baseurl }}/assets/logotipo_blanco.pdf) y también [en SVG (azul)]({{ site.baseurl }}/assets/logotipo_original.svg).
 
+<strong>TIPOGRAFÍA:</strong><br/>
+<a target="_blank" href="http://www.fontsquirrel.com/fonts/museo-sans">Descargar Museo Sans (500 - 500 italic) </a>
+
