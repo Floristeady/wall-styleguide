@@ -2,7 +2,7 @@
 title: Guía de Estilos - Wall Arquitectura & Diseño
 email: contacto@wallarquitectura.com
 description: Brand Guidelines | Wall Arquitectura & Diseño
-# url: "http://webconfs.me"
+baseurl: '/wall-styleguide'
 twitter_username: wall_arq
 paginate: 4
 
