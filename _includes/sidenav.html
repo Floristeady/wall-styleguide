@@ -11,6 +11,8 @@
  
   {% for post in site.posts | sort:weight %}
   
+      <p class="hide">{{post.url | split:'/' }} - {{current}}</p>
+  
   	  {% assign current = post.title | handleize | replace:'í','i' | replace:'ó','o' | replace:'é','e' | replace:'á','a' | replace:'ñ','n' %}
   
 	   {% if post.title %}
@@ -19,7 +21,7 @@
 	  </a>
 	   {% endif %}
 	   
-	   <p class="hide">{{location}} - {{current}}</p>
+	   
   
   {% endfor %}
 </nav>
