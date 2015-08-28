@@ -1,0 +1,143 @@
+// ==========================================================================
+// Custom Styles
+// ==========================================================================
+
+// Header
+
+// Index
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: $elm;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 3em;
+    
+    @media (min-width: 34em) {
+		.jumbotron {
+		    padding-top: 6rem;
+		    padding-bottom: 8rem;
+		    font-size: 1.5rem;
+		    text-align: left;
+		}
+	}
+	
+	h1 {
+		color: white;
+	}
+	
+	p {
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		font-size: 1em;
+		margin-bottom: 6em;
+	}
+	
+	.btn--default {
+		background: transparent;
+		border: 1px solid white;
+		color: white;
+		font-size: .8em;
+	}
+}
+
+.post__item {
+	
+	width: 100%;
+	float: left;
+	
+	.btn--default {
+		clear: both;
+		display: inline-block;
+		font-size: .7em;
+		margin: 0;
+	}
+	
+	.post__date {
+		margin-left: 1em;
+		font-size: .8em;
+	}
+}
+
+.post__content {
+	small {
+		text-decoration: underline;
+	}
+	img {
+		margin-bottom: 0;
+	}
+	
+	ul {
+		margin: 1em 0;
+	}
+	
+	ul li {
+		text-transform: uppercase;
+		margin: .5em 0;
+	}
+	
+	ul li a {
+		font-size: .86em;
+		text-decoration: underline;
+	}
+	
+	a {
+		text-decoration: underline;
+	}
+}
+
+
+.menu {
+     margin-top: 2em !important;
+     
+     @include mq(small) { 
+	     margin-top:1 !important;
+	     margin-bottom: 1em;
+	     width: 100%;
+     }
+	    
+	a {
+		display: block;
+		margin: .8em 0;
+		font-size: .95em;
+		
+		@include mq(small) { 
+			margin: .4em 0;
+			text-align: center;
+		}
+		
+		&.selected {
+			font-weight: bold;
+			color: $elm;
+		}
+	}
+}
+
+@include mq(small) { 
+	.custom-post .grid__col--4 {
+		width: 100%;
+		border-top: 1px solid #e8e9ea;
+	}
+}
+
+.colors-primary {
+	div {
+		color: #fff;
+		font-size: .75em;
+		font-weight: normal;
+		padding: .5em 4% 0;
+	}
+	
+	div:first-child {
+		padding-top: 2em;
+		}
+}

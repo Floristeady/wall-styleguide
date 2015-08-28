@@ -1,0 +1,25 @@
+
+{% capture location %}{{ page.url | split:'/'}}{% endcapture %}
+
+<nav class="menu docs-menu">
+  <a class="menu-item {% if page.title == "Documentación" %}selected{% endif %}" href="{{ site.baseurl }}/documentacion/">
+    Documentación
+  </a>
+</nav>
+
+<nav class="menu docs-menu">
+ 
+  {% for post in site.posts | sort:weight %}
+  
+  	  {% assign current = post.title | handleize | replace:'í','i' | replace:'ó','o' | replace:'é','e' | replace:'á','a' | replace:'ñ','n' %}
+  
+	   {% if post.title %}
+	  <a {% if location == current %} class="menu-item selected" {% else %} class="menu-item" {% endif %} href="{{ post.url | prepend: site.baseurl }}">
+	   {{ post.title }}
+	  </a>
+	   {% endif %}
+  
+  {% endfor %}
+</nav>
+
+

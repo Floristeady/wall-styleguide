@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+	<div class="grid">
+
+	    <div class="grid__col--12">
+		 <h1>Brand Guidelines</h1>
+	      <p>Guía de Estilos de la Marca | Wall Arquitectura & Diseño</p>
+	
+	      <a href="{{ site.baseurl }}/documentacion/" class="btn--default">
+	        Leer Documentación
+	      </a>	  
+		</div>
+		
+	</div>
+	
+</div>
+
+<div class="grid">
+		
+  <div class="grid__col--12">
+
+    <ul class="post">
+      <!-- This loops through the paginated posts -->
+      {% for post in site.posts | sort:"date" %}
+        <li class="post__item">
+          <span class="grid__col--5">
+          	<a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </span>
+          <span class="grid__col--2">
+	          <span class="post__meta ">
+	            <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
+	          </span>
+          </span>
+          <span class="grid__col--5">
+          {{ post.excerpt }}
+          </span>
+          <div class="grid__col--12">
+          <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Leer más</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</div>

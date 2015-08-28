@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="grid custom-post">
+ 	
+	<div class="grid__col--8 post right">
+    <header class="post__header">
+      <h1 class="post__title--grouped">{{ page.title }}</h1>
+      <div class="post__meta">
+        <b class="post__date">{{ page.date | date: "%b %-d, %Y" }}</b>
+      </div>
+    </header>
+
+    <article class="post__content">
+	   
+      	{{ content }}
+          
+	    {% if page.image %}
+	    <img class="img--feat" src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/{{ page.image }}/img/{{ page.image }}">
+	    {% endif %}
+	    
+	     {% if page.caption %}
+	    <small>{{ page.caption }}</small>
+	    {% endif %}
+
+    </article>
+
+	</div>
+	
+		
+	{% unless page.title == "About" %}
+	<div class="grid__col--4 post left">  
+	      {% include sidenav.html %}	    
+  	</div>
+  	{% endunless %}
+</div>

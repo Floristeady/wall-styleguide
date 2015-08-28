@@ -1,0 +1,43 @@
+# Site settings
+title: Guía de Estilos - Wall Arquitectura & Diseño
+email: contacto@wallarquitectura.com
+description: Brand Guidelines | Wall Arquitectura & Diseño
+# url: "http://webconfs.me"
+twitter_username: wall_arq
+paginate: 4
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+group : jekyll_plugins do
+   gem [ handelize ]
+ end
+
+#Default Settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Guil Hernandez"
+      categories: "author"
+      layout: "post"
+      comments: false
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page_with_nav"
+      
+   
+

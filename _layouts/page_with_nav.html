@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="grid custom-post">
+	
+    <div class="grid__col--8 page right">
+	  <header class="post__header">
+	    <h1 class="headline-primary">{{ page.title }}</h1>
+	  </header>
+	
+	  <article class="post__content">
+	  {{ content }}
+	  </article>
+
+	</div>
+	
+	{% unless page.title == "About" %}
+	<div class="grid__col--4 page left">  
+	      {% include sidenav.html %}	    
+  	</div>
+  	{% endunless %}
+
+</div>
