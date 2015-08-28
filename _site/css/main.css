@@ -432,10 +432,10 @@ footer {
     color: #099; }
 
 .left {
-  float: left; }
+  float: left !important; }
 
 .right {
-  float: right; }
+  float: right !important; }
 
 .jumbotron {
   padding-top: 5rem;

@@ -10,3 +10,5 @@ Sobre la tipografía de la identidad.
 Se debe utilizar la familia tipográfica principal - Museo Sans - para los textos de las aplicaciones de la identidad corporativa: papelería, sitio web, entre otros.
 
 ![Tipografía]({{ site.baseurl }}/assets/tipography.svg)
+
+![Descargar Tipografía](http://www.fontsquirrel.com/fonts/museo-sans)
