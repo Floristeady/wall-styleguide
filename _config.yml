@@ -13,6 +13,8 @@ permalink: /:title
 group : jekyll_plugins do
    gem [ handelize ]
  end
+ 
+gems: [ jekyll-paginate ]
 
 #Default Settings
 defaults:
