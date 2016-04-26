@@ -7,7 +7,9 @@ layout: page_with_nav
 Descarga los archivos de la identidad visual.
 
 <strong>EN CALIDAD BAJA:</strong><br/>
-Puedes descargar <a href="{{ site.baseurl }}/assets/logotipoazul-560px.jpg" download="{{ site.baseurl }}/assets/logotipoazul-560px.jpg">JPG (azul / 560px)</a> o <a href="{{ site.baseurl }}/assets/logotipogrioscuro-560px" download="{{ site.baseurl }}/assets/logotipogrioscuro-560px.png">PNG (gris oscuro / 560px)</a> o <a href="{{ site.baseurl }}/assets/logotipoazul-560px.png" download="{{ site.baseurl }}/assets/logotipoazul-560px.png">PNG (azul / 560px) ] </a>  o <a href="{{ site.baseurl }}/assets/logotipoblanco.png" download="{{ site.baseurl }}/assets/logotipoblanco.png">PNG (blanco / 560px) ]</a>.
+Puedes descargar <a href="{{ site.baseurl }}/assets/logotipoazul-560px.jpg" download="{{ site.baseurl }}/assets/logotipoazul-560px.jpg">JPG (azul / 560px)</a> o <a href="{{ site.baseurl }}/assets/logotipogrioscuro-560px" download="{{ site.baseurl }}/assets/logotipogrioscuro-560px.png">PNG (gris oscuro / 560px)</a> o <a href="{{ site.baseurl }}/assets/logotipoazul-560px.png" download="{{ site.baseurl }}/assets/logotipoazul-560px.png">PNG (azul / 560px) </a>  o <a href="{{ site.baseurl }}/assets/logotipoblanco.png" download="{{ site.baseurl }}/assets/logotipoblanco.png">PNG (blanco / 560px) ]</a>.
+
+Para redes sociales: <a href="{{ site.baseurl }}/assets/wallidentidad500px.png" download="{{ site.baseurl }}/assets/wallidentidad500px.png">Formato PNG (azul con fondo blanco / 500x500px)</a> o <a href="{{ site.baseurl }}/assets/wallidentidad500pxsinfondo.png" download="{{ site.baseurl }}/assets/wallidentidad500pxsinfondo.png">Formato PNG (azul sin fondo blanco / 500x500px)</a> .
 
 
 <strong>EN CALIDAD ALTA:</strong><br/>
